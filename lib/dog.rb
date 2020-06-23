@@ -25,6 +25,7 @@ class Dog
   
   def self.clear_all
     @@all.clear
+    @@names.clear
   end
   
   def save_names
