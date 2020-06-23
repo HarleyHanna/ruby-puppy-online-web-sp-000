@@ -28,7 +28,7 @@ class Dog
   end
   
   def save_names
-    @@names << name
+    @@names << @name
   end
   
   
